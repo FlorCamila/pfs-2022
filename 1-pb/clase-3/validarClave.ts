@@ -2,34 +2,19 @@
 
 import * as rls from "readline-sync";
 
-// Declaramos variable contador
+// Declaramos variables clave, contadaor, claveIngresada
 
+const clave : string = "eureka";
 let contador : number = 0;
+let claveIngresada : string = "";
 
-//  El usuario ingresará la clave, la cuál debe ser eureka, de lo contrario tiene 3 intentos mas para probar.
+while (contador < 3 && claveIngresada != clave) {
 
-while(contador < 3){
+claveIngresada = rls.question("Introduzca la clave: ");
+contador ++;
+}
 
-    let clave : string = rls.question ("Ingrese su clave: ");
+if (claveIngresada != clave) {
 
-    if(clave === "eureka"){
-
-        console.log("Clave correcta, bienvenido/a");
-
-        break;
-
-    }else if(clave != "eureka"){
-
-        console.log("Clave incorrecta")
-        
-    }
-
-        contador++ 
-
-    if(contador == 3){
-
-        console.log("No tiene mas intentos, intente mas tarde nuevamente")
-        
-    }
-
-    }
+console.log("Ya no tiene más intentos");
+}
