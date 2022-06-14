@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color:  #d3d2db   ; */
+    background-image: linear-gradient(to right, #dcc0a8, #c9ad93, #b79a7e, #a4876a, #927557);
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:   #2f1f1a  ;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.imagen{
+    width: 17%;
+    height: 17%;
+    display: block;
+    margin-left: 10px;
+}
+
+.lista{
+    margin-left: 30px ;
+    margin-top: 30px;
+}
+
+.listaTitulo{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #2f1f1a ;
+}
+
+.listaEstudios{
+    list-style-image: url('../imagenes/icono1.png');
+}
+
+.listaGustos{
+    list-style-image: url('../imagenes/icono.png');
+}
