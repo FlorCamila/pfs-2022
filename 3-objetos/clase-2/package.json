@@ -1,0 +1,11 @@
+{
+  "name": "clase-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aire.js",
+  "scripts": {
+    "test": "cls && tsc comprandoAire.ts && node comprandoAire.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
