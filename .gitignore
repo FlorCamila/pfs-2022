@@ -1,5 +1,7 @@
 /node_modules
 1-pb/*/*.js
 3-objetos/*/*.js
+3-objetos/*/*/*.js
 /*/*/node_modules
+/*/*/*/node_modules
 /*/examen
