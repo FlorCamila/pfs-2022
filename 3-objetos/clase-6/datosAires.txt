@@ -1,0 +1,1 @@
+Philco,107.000,Si,Calor;Hitachi,100,No,Calor;Noblex,145,Si,Frio
